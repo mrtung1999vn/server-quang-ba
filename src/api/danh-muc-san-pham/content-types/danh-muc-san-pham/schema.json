@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "danh_muc_san_phams",
+  "info": {
+    "singularName": "danh-muc-san-pham",
+    "pluralName": "danh-muc-san-phams",
+    "displayName": "DanhMucSanPham"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tendanhmuc": {
+      "type": "string"
+    },
+    "hinhanh": {
+      "type": "string"
+    },
+    "mota": {
+      "type": "text"
+    }
+  }
+}

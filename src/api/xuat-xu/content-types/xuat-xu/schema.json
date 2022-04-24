@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "xuat_xus",
+  "info": {
+    "singularName": "xuat-xu",
+    "pluralName": "xuat-xus",
+    "displayName": "XuatXu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NoiXuatSu": {
+      "type": "string"
+    }
+  }
+}

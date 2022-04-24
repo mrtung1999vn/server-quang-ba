@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phan_hois",
+  "info": {
+    "singularName": "phan-hoi",
+    "pluralName": "phan-hois",
+    "displayName": "PhanHoi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "decription": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

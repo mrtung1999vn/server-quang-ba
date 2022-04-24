@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "san_phams",
+  "info": {
+    "singularName": "san-pham",
+    "pluralName": "san-phams",
+    "displayName": "SanPham"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tenSp": {
+      "type": "string"
+    },
+    "xuat_xu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::xuat-xu.xuat-xu"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "don_vi_tinhs",
+  "info": {
+    "singularName": "don-vi-tinh",
+    "pluralName": "don-vi-tinhs",
+    "displayName": "DonViTinh",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
